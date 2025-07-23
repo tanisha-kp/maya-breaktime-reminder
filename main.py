@@ -10,7 +10,7 @@ def energy_drainer():
     global current_energy, timer_active
 
     while timer_active and current_energy > 10:
-        time.sleep(5)  #5 seconds
+        time.sleep(1800)  #30 minutes
 
         current_energy -= 30
         if current_energy < 0:
